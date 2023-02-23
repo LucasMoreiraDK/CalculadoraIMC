@@ -18,11 +18,11 @@ form.addEventListener('submit', function (e) {
         results.innerHTML = `<span>${bmi}</span>`
         // Display End Message
         if (bmi < 18.6) {
-            message.innerHTML = "você está acima do peso ideal";
+            message.innerHTML = "você está abaixo do peso ideal";
         } else if (bmi > 18.6 && bmi < 24.9) {
             message.innerHTML = "Normal!"
         } else if (bmi > 24.9) {
-            message.innerHTML = "Você está abaixo do peso ideal!"
+            message.innerHTML = "Você está acima do peso ideal!"
         }
     }
 });

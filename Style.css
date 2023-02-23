@@ -72,3 +72,31 @@ li{
 .textoResultado{
     color: rgb(217, 235, 235);
 }
+
+.logo{
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: rgba(0, 89, 255, 0.781);
+    margin: 10px;
+    transition: all 5s;
+}
+
+
+#l1:hover{
+    background-color: rgb(17, 17, 14);
+    -webkit-transform: rotateZ(360deg);
+}
+#l2:hover{
+    background-color: rgb(233, 233, 10);
+    -webkit-transform: rotateZ(360deg);
+}
+
+#l3:hover{
+    background-color: rgb(9, 224, 45);
+    -webkit-transform: rotateZ(360deg);
+}
+#l4:hover{
+    background-color: rgb(21, 217, 231);
+    -webkit-transform: rotateZ(360deg);
+}
